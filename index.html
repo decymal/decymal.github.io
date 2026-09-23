@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>r u Down — Support &amp; Privacy</title>
+<meta name="description" content="Support and privacy policy for r u Down, an app for deciding what to do with friends.">
+<meta name="theme-color" content="#07070C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 108 108'%3E%3Crect width='108' height='108' rx='24' fill='%2307070C'/%3E%3Ccircle cx='68' cy='54' r='21' fill='%23FF2D55'/%3E%3Ccircle cx='40' cy='54' r='24.5' fill='%2307070C'/%3E%3Ccircle cx='40' cy='54' r='21' fill='%2300E676'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --ink: #07070C;
+    --card: #101018;
+    --sunk: #181826;
+    --line: rgba(255,255,255,.09);
+    --text: #ffffff;
+    --muted: rgba(255,255,255,.55);
+    --faint: rgba(255,255,255,.34);
+    --down: #00E676;
+    --naa: #FF2D55;
+    --accent: #7C4DFF;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+
+  body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--text);
+    font-family: Archivo, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 22px; }
+
+  /* ---- sticky nav ---- */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(7,7,12,.86);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .wrap { display: flex; align-items: center; gap: 18px; height: 64px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; margin-right: auto; }
+  .brand span {
+    font-family: "Archivo Black", Archivo, sans-serif;
+    font-size: 18px; letter-spacing: -.3px;
+  }
+  .brand .q { color: #FFD400; }
+  .brand .d { color: var(--down); }
+  nav a.link {
+    color: var(--muted); text-decoration: none;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: .12em; text-transform: uppercase;
+  }
+  nav a.link:hover { color: var(--text); }
+
+  /* ---- hero ---- */
+  header { padding: 72px 0 40px; }
+  h1 {
+    font-family: "Archivo Black", Archivo, sans-serif;
+    font-size: clamp(38px, 8vw, 60px);
+    line-height: .96; letter-spacing: -1.2px;
+    margin: 0 0 16px;
+  }
+  .lede { color: var(--muted); font-size: 19px; max-width: 34rem; margin: 0; text-wrap: pretty; }
+
+  /* ---- sections ---- */
+  section { padding: 34px 0; border-top: 1px solid var(--line); }
+  h2 {
+    font-family: "Archivo Black", Archivo, sans-serif;
+    font-size: 15px; letter-spacing: .2em; text-transform: uppercase;
+    color: var(--faint); margin: 0 0 26px;
+  }
+  h3 {
+    font-family: "Archivo Black", Archivo, sans-serif;
+    font-size: 21px; letter-spacing: -.3px;
+    margin: 32px 0 8px;
+  }
+  h3:first-of-type { margin-top: 0; }
+  p { margin: 0 0 16px; color: var(--muted); text-wrap: pretty; }
+  p strong { color: var(--text); font-weight: 700; }
+  a { color: var(--down); text-decoration-color: rgba(0,230,118,.4); text-underline-offset: 3px; }
+  a:hover { color: #5BFFB0; }
+
+  ul { margin: 0 0 16px; padding-left: 20px; color: var(--muted); }
+  li { margin-bottom: 8px; }
+  li::marker { color: var(--faint); }
+
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 22px; padding: 22px 24px; margin-bottom: 14px;
+  }
+  .card p:last-child { margin-bottom: 0; }
+
+  .callout {
+    border-left: 3px solid var(--down);
+    background: rgba(0,230,118,.06);
+    border-radius: 0 16px 16px 0;
+    padding: 18px 22px; margin: 0 0 20px;
+  }
+  .callout p { color: rgba(255,255,255,.72); margin: 0; }
+
+  .contact { display: inline-flex; align-items: center; gap: 10px;
+    background: var(--accent); color: #fff; text-decoration: none;
+    font-weight: 700; padding: 14px 24px; border-radius: 16px; }
+  .contact:hover { color: #fff; filter: brightness(1.1); }
+
+
+  footer { padding: 40px 0 64px; border-top: 1px solid var(--line); }
+  footer p { color: var(--faint); font-size: 14px; margin: 0; }
+
+  @media (max-width: 560px) {
+    body { font-size: 16px; }
+    header { padding: 48px 0 28px; }
+    nav .wrap { gap: 12px; }
+    nav a.link { font-size: 11px; letter-spacing: .08em; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <svg width="28" height="28" viewBox="0 0 108 108" aria-hidden="true">
+        <rect width="108" height="108" rx="24" fill="#101018"/>
+        <circle cx="68" cy="54" r="21" fill="#FF2D55"/>
+        <circle cx="40" cy="54" r="24.5" fill="#101018"/>
+        <circle cx="40" cy="54" r="21" fill="#00E676"/>
+      </svg>
+      <span>r u <span class="d">Down</span><span class="q">?</span></span>
+    </a>
+    <a class="link" href="#support">Support</a>
+    <a class="link" href="#privacy">Privacy</a>
+  </div>
+</nav>
+
+<header id="top">
+  <div class="wrap">
+    <h1>Support &amp;<br>Privacy</h1>
+    <p class="lede">
+      r u Down is an app for working out what to do with your friends, without anyone
+      having to be the one who organises it.
+    </p>
+  </div>
+</header>
+
+<section id="support">
+  <div class="wrap">
+    <h2>Support</h2>
+
+    <div class="callout">
+      <p>Something broken, or an idea? Email me — it comes straight to a person, and I read all of it.</p>
+    </div>
+
+    <p style="margin-bottom:30px">
+      <a class="contact" href="mailto:edd.jhoe+rudown@gmail.com">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/>
+        </svg>
+        edd.jhoe+rudown@gmail.com
+      </a>
+    </p>
+
+    <h3>How do I get my friends in?</h3>
+    <p>
+      Open a group, tap the share button, and send them the ten-character invite code
+      or the link. They enter it under <strong>Groups → Have an invite code?</strong>
+      An invite is the only way into a group. There is no way to search for a person,
+      and no way for anyone to find you.
+    </p>
+
+    <h3>Where did my plan go?</h3>
+    <p>
+      It expired, and that is deliberate. Every plan has a clock on it —
+      <strong>Now</strong> lasts two hours, <strong>Tonight</strong> ends at 5am. When
+      a plan expires it disappears along with its chat, so the app never fills up with
+      dead ideas nobody wanted to be the one to delete.
+    </p>
+
+    <h3>The receipt scanner got something wrong.</h3>
+    <p>
+      Every line is editable — tap it and fix the name or the amount. Lines the scan
+      was unsure about are highlighted for you. If a whole receipt reads badly, a flatter
+      photo in better light usually fixes it, and you can always add lines by hand.
+    </p>
+
+    <h3>How does paying people back work?</h3>
+    <p>
+      The app never takes a payment and never sees your card. When you split a bill it
+      builds a link that opens the other person's own Venmo, Cash App or PayPal with the
+      amount already filled in. They pay you directly, in an app they already trust, and
+      they do not need this app installed.
+    </p>
+
+    <h3>How do I delete my account?</h3>
+    <p>
+      In the app: <strong>Me → Delete my account</strong>, at the bottom of Settings.
+      It removes your profile, your messages and your responses, and it cannot be undone.
+      Groups you own pass to whoever has been in them longest; a group with only you in
+      it is deleted with you.
+    </p>
+  </div>
+</section>
+
+<section id="privacy">
+  <div class="wrap">
+    <h2>Privacy Policy</h2>
+
+    <div class="card">
+      <p>
+        <strong>The short version.</strong> Only people in a group with you can see
+        anything you post. Your email and phone number are never shown to anyone. Receipt
+        photos are read on your phone and never uploaded. You can delete everything from
+        inside the app.
+      </p>
+    </div>
+
+    <h3>What is collected</h3>
+    <ul>
+      <li>Your email address and a password, so you can sign in.</li>
+      <li>A name and an avatar, both of which you choose.</li>
+      <li>The groups you are in, the plans posted in them, and messages on those plans.</li>
+      <li>Bills you split, including receipt line items after they have been read.</li>
+      <li>Payment handles you choose to add — Venmo, Cash App, PayPal, Zelle. These are
+          public handles only. Never a card number, never bank credentials, never anything
+          that could authorise a payment.</li>
+    </ul>
+
+    <h3>What is not collected</h3>
+    <p>
+      Your contacts. Your location. Anything from a receipt photo other than the text
+      printed on it — the image is read on your device and is never uploaded anywhere.
+      There is no analytics tracking, no advertising, and no third-party trackers.
+    </p>
+
+    <h3>Who can see what</h3>
+    <p>
+      Only people who share a group with you can see your name, your avatar, and what
+      you post in that group. There is no public profile, no feed, no search, and no way
+      for a stranger to find you. This is enforced by the database itself, not only by
+      the app.
+    </p>
+    <p>
+      <strong>Your email address is never visible to anyone else</strong>, including
+      people in your groups.
+    </p>
+
+    <h3>Where it is kept</h3>
+    <p>
+      Data is stored with Supabase, on servers in the United States (East US).
+      Plans and their messages are deleted automatically when they expire. Nothing is
+      sold, and nothing is shared with anyone for advertising.
+    </p>
+
+    <h3>Your control</h3>
+    <p>
+      You can delete your account at any time from inside the app under
+      <strong>Me → Delete my account</strong>. That removes your profile, your messages
+      and your responses. If you would rather I did it, email me and I will.
+    </p>
+
+    <h3>Children</h3>
+    <p>
+      r u Down is not intended for children under 13, and accounts are not knowingly
+      created for them.
+    </p>
+
+    <h3>Changes</h3>
+    <p>
+      If this policy changes in a way that affects what is collected or who can see it,
+      the app will say so rather than quietly updating this page.
+    </p>
+
+    <h3>Contact</h3>
+    <p>
+      <a href="mailto:edd.jhoe+rudown@gmail.com">edd.jhoe+rudown@gmail.com</a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Last updated 22 September 2026 · r u Down</p>
+  </div>
+</footer>
+
+<script>
+  // Progressive enhancement for the two in-page links. The plain href already
+  // works on its own; this just makes the landing position certain, clear of
+  // the sticky header, and keeps the URL shareable.
+  for (const link of document.querySelectorAll('a[href^="#"]')) {
+    link.addEventListener('click', function (event) {
+      var target = document.querySelector(this.getAttribute('href'));
+      if (!target) return;
+      event.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      history.replaceState(null, '', this.getAttribute('href'));
+    });
+  }
+
+  // Someone arriving straight at /#privacy — the case App Store Connect links to.
+  if (location.hash) {
+    var landing = document.querySelector(location.hash);
+    if (landing) {
+      window.addEventListener('load', function () {
+        landing.scrollIntoView({ behavior: 'auto', block: 'start' });
+      });
+    }
+  }
+</script>
+
+</body>
+</html>
